@@ -6,9 +6,9 @@ kernel:
     resource: ../src/Kernel.php
     type: annotation
 
-home:
-    path: /
-    controller: App\Controller\WebController::home
+# home:
+#     path: /
+#     controller: App\Controller\WebController::home
 
 soft-skills:
     path: /soft-skills
