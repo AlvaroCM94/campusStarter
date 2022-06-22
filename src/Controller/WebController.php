@@ -62,7 +62,6 @@ class WebController extends AbstractController
 
     }
 
-    /*
     public function contacto(EntityManagerInterface $em): Response{
 
         $error = "";
@@ -636,5 +635,5 @@ class WebController extends AbstractController
             ]);
 
         }
-    }*/
+    }
 }
