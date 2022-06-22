@@ -38,13 +38,6 @@ class WebController extends AbstractController
 
     }
 
-/*
-    public function navbar(): Response{
-
-        return $this->render('components/navbar.html.twig');
-
-    }
-
     public function retos(): Response{
 
         return $this->render('web/retos.html.twig');
@@ -69,6 +62,7 @@ class WebController extends AbstractController
 
     }
 
+    /*
     public function contacto(EntityManagerInterface $em): Response{
 
         $error = "";
