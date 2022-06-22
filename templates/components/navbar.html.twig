@@ -108,7 +108,7 @@
                         <a class="nav-link" href="/contacto">Contacto</a>
                     </li>
 
-                    {% if app.user %}
+                    {# {% if app.user %}
                         {% if app.user.roles[0] == "ROLE_USER" %}
 
                             <li class="nav-item">
@@ -145,13 +145,13 @@
                             <a class="nav-link" href="{{ path('logout') }}">Desconectar</a>
                         </li>
 
-                    {% else %}
+                    {% else %} #}
 
                         <li class="nav-item">
                             <a class="nav-link" href="{{ path('login') }}">Conectar</a>
                         </li>
 
-                    {% endif %}
+                    {# {% endif %} #}
 
                 </ul>
             </div>
