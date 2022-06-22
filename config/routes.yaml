@@ -13,3 +13,23 @@ kernel:
 soft-skills:
     path: /soft-skills
     controller: App\Controller\WebController::softSkills
+
+retos:
+    path: /retos
+    controller: App\Controller\WebController::retos
+
+acompanamiento:
+    path: /acompanamiento
+    controller: App\Controller\WebController::acompanamiento
+
+solucines-de-inteligencia:
+    path: /solucines-de-inteligencia
+    controller: App\Controller\WebController::soluciones
+
+travel-crystal-ball:
+    path: /travel-crystal-ball
+    controller: App\Controller\WebController::travelCrystalBall
+    
+contacto:
+    path: /contacto
+    controller: App\Controller\WebController::contacto
