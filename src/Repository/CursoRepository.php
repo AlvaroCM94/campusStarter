@@ -45,7 +45,7 @@ class CursoRepository extends ServiceEntityRepository
     public function getAllCursos(){
         $conn = $this->getEntityManager()->getConnection();
 
-        $sql = 'SELECT * FROM Curso';
+        $sql = 'SELECT * FROM curso';
 
         $stmt = $conn->prepare($sql);
         $resultSet = $stmt->executeQuery();
@@ -56,7 +56,7 @@ class CursoRepository extends ServiceEntityRepository
     public function getAllCursosNombres(){
         $conn = $this->getEntityManager()->getConnection();
 
-        $sql = 'SELECT nombre FROM Curso';
+        $sql = 'SELECT nombre FROM curso';
 
         $stmt = $conn->prepare($sql);
         $resultSet = $stmt->executeQuery();
@@ -67,7 +67,7 @@ class CursoRepository extends ServiceEntityRepository
     public function getAllCursosNombresActivos(){
         $conn = $this->getEntityManager()->getConnection();
 
-        $sql = 'SELECT nombre FROM Curso WHERE visibilidad = "1"';
+        $sql = 'SELECT nombre FROM curso WHERE visibilidad = "1"';
 
         $stmt = $conn->prepare($sql);
         $resultSet = $stmt->executeQuery();
